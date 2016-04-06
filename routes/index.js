@@ -1,4 +1,4 @@
-var stripe = require('stripe')("sk_test_ImiShRAViHIqyxDE86hQrfAA");
+var stripe = require('stripe')("REPLACEME");
 var express = require('express');
 var router = express.Router();
 
