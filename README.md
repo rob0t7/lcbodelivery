@@ -10,9 +10,10 @@ it then fetches a stripe token and creates a charge via your server. It then dis
 ## How to Run
 
   1. Checkout project
-  2. run "npm install"
-  3. run the app "npm start"
-  4. open your browser to "http://localhost:3000"
+  2. Replace Stripe Tokens (search for 'REPLACEME')
+  3. run "npm install"
+  4. run the app "npm start"
+  5. open your browser to "http://localhost:3000"
   
 ## Debugging
 
