@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  h2 Products
+  form#product-form
+    .form-group
+      label Product Name
+      input.form-control#product-name(type="text")
+    .form-group
+      button.btn.btn-primary(type="submit") Search
+  #product-search-results
+    table.table
+      thead
+        tr
+          th Name
+          th Brewery
+          th Price
+          th
+      tbody
+      
+  h2 Payment Form
+  form#payment-form.hidden
+    .form-group
+      label Product
+      input.form-control#product(type="text")
+    .form-group
+      label Price
+      input.form-control#price(type="text")
+    .form-group
+      label Card Number
+      input.form-control#card-number(type="text")
+    .form-group
+      label Name
+      input.form-control#card-name(type="text")
+    .form-group
+      label Exp Month
+      input.form-control#card-exp-month(type="text")
+    .form-group
+      label Exp Year
+      input.form-control#card-exp-year(type="text")
+    .form-group
+      label CVC
+      input.form-control#card-cvc(type="text")
+    .form-group
+      button.btn.btn-primary(type="submit") Pay
