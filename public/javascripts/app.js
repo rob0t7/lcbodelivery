@@ -1,6 +1,6 @@
 // Setup Global APIs
 var LCBOKEY = 'MDphMmIxNDY0Mi0zYjYwLTExZTUtYTRlOS1hZjBkOWE1YzRmYzI6WWRZR1h6Q0ZwQk9JNG00YTJMcHBsOFNxcUxjeklpTmVEWGlz';
-Stripe.setPublishableKey('pk_test_ayn3JxT94cZ0IZqfizvWnaq1');
+Stripe.setPublishableKey('REPLACEME');
 
 // LCBO Search related functions
 var searchLCBO = function(productName) {
